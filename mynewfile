@@ -1,0 +1,23 @@
+pipeline{
+Agent any
+stages{
+stage('validate'{
+steps{
+echo 'validating'
+}
+}
+stage('compile'{
+steps{
+echo 'compiling'
+}
+}
+stage('test'{
+steps{
+echo 'testing'
+}
+}
+stage('deploy'{
+steps{
+echo 'deploying'
+}
+}
